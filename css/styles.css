@@ -64,6 +64,9 @@ img {
   align-items: center;
   margin-left: 43px;
 }
+.current-page {
+  color: var(--link-button-color);
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -212,6 +215,7 @@ ul {
 .attributes-icon:hover,
 .attributes-icon:focus {
   color: var(--link-button-color);
+  cursor: pointer;
 }
 
 .section-work-title,
