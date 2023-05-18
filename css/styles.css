@@ -544,8 +544,3 @@ ul {
   color: var(--link-button-color);
   border: 1px solid;
 }
-
-.is-hidden {
-  pointer-events: none;
-  opacity: 0%;
-}
