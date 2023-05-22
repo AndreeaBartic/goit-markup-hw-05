@@ -18,14 +18,14 @@
   <body>
     <header class="section global-header">
       <div class="container header-container">
-        <nav class="navigation">
+        <nav class="navigation ">
           <a class="logo" href="./index.html"
             ><span class="web">Web</span>Studio</a
           >
           <ul class="header-list">
-            <li><a class="link" href="./index.html">Studio</a></li>
-            <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="link" href="./contacts.html">Contacts</a></li>
+            <li class="header-item"><a class="link current-page" href="./index.html">Studio</a></li>
+            <li class="header-item"><a class="link" href="./portfolio.html">Portfolio</a></li>
+            <li class="header-item"><a class="link" href="./contacts.html">Contacts</a></li>
           </ul>
         </nav>
         <ul class="header-contacts">
@@ -121,12 +121,15 @@
           <ul class="section-work-list">
             <li class="section-work-item">
               <img src="images/img1.jpg" alt="writes on tablet" />
+              <p class="section-overlay">DESKTOP APPS</p>
             </li>
             <li class="section-work-item">
               <img src="images/img2.jpg" alt="looking at phone" />
+              <p class="section-overlay">MOBILE APPS</p>
             </li>
             <li class="section-work-item">
               <img src="images/img3.jpeg" alt="pallette of colors" />
+              <p class="section-overlay">DESIGN SOLUTION</p>
             </li>
           </ul>
         </div>
@@ -397,7 +400,7 @@
         </ul>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" data-modal-close>
           <svg width="18px" height="18px">
@@ -405,7 +408,7 @@
               href=./images/symbol-defs.svg#icon-close-black-18dp
             ></use>
           </svg>
-        </button>
+          </button>
       </div>
     </div>
     <script src="./modal.js"></script>
