@@ -625,3 +625,6 @@ img {
 .is-hidden {
   visibility: hidden;
 }
+.icon-close-black-18dp {
+  color: #000000;
+}
